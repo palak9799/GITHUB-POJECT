@@ -5,4 +5,8 @@ age = input("Enter your age: ")
 
 print("Hello", name)
 print("You are", age, "years old")
-
+student = input("Are you a student? (yes/no): ")
+if student.lower() == "yes":
+    print("That's great! Keep up the good work.")
+else:
+    print("That's okay. Keep working hard!")
